@@ -1,0 +1,11 @@
+global_value:		0x804e10c
+cookie:			0x804e104			0x6f245adc
+bang:			0x08048b82
+$ebp-40:			0x556834d8
+
+
+mov $0x6f245adc,0x804e10c
+mov 0x804e10c,%eax
+mov %eax,4(%esp)
+push $0x08048b82
+ret
